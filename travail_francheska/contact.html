@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Parc d'attraction sur les bananes</title>
+</head>
+<body>
+    <header class="header">
+    <div class="containerHeader">
+        <div class="logoSite">
+            <a href="/index.html" class="logoSite d-flex align-items-center text-decoration-none">
+                <img src="./images/bananland_v1.PNG" alt="Logo" style="height: 60px;" class="me-2">
+                <span class="nomSite">Banana Land</span>
+            </a>
+        </div>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" >
+                    <li><a href="/index.html" class="nav-link px-2 text-secondary">Accueil</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Nos attractions</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Restauration</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Réservation</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Nous contacter</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <input type="search" class="form-control form-control-dark" placeholder="Rechercher..." aria-label="Search">
+        </form>
+
+
+        <div class="text-end">
+            <button type="button" class="btnSecondaire">Connexion</button>
+            <button type="button" class="btnPrincipal">S'inscrire</button>
+        </div>
+
+    </div>
+        
+    </header>
+    <main>
+        <section id="contact" class="contact-section py-5 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <h2 class="text-center mb-4 text-gray">Nous contacter</h2>
+        <!-- Debut formulaire contact -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label text-gray">Nom</label>
+                                <input type="text" class="form-control" id="name" placeholder="Entrer votre nom"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-gray">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Entrer votre email"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label text-gray">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Entrer votre message"></textarea>
+                            </div>
+                            <button type="submit" class="btnPrincipal">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
