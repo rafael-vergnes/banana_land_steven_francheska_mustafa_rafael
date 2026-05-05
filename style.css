@@ -1,0 +1,20 @@
+header {
+    background-image: url(https://i.pinimg.com/736x/5d/17/b4/5d17b4fb88ba29a2885d40aea29210a4.jpg);
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: 200px;
+}
+
+button.btn {
+    background-color: #845119;
+    color: white;
+    padding: 10px;
+}
+
+button.btn:hover {
+    background-color: #FCDB00;
+}
+
+p.text-muted {
+    font-size: 1.2em;
+}
