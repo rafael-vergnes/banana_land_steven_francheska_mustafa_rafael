@@ -1,0 +1,9 @@
+.row, a {
+    background-color: #845119;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
