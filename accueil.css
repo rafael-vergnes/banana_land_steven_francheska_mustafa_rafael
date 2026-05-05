@@ -16,20 +16,60 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-weight: 700;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 /*CSS LES DIFFÉRENTES CARTÉGORIES - ACCUEIL*/
 
 .categorie {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: rgb(252, 219, 0);
     display: flex;
-    justify-content: center;
-
+    justify-content: space-evenly;
 }
 
+.categorie img{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.categorie h2 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/*CSS CARROUSEL - ACCUEIL*/
 
 
+.reseaux {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgb(252, 219, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reseaux img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.titrecarrousel{
+    padding-top: 50px;
+    background-color: rgb(252, 219, 0);
+    display: flex;
+    justify-content:center;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
 
 
 /*CSS FOOTER - ACCUEIL*/
