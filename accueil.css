@@ -1,0 +1,45 @@
+
+/*CSS VITRINE - ACCEUIL*/
+
+.vitrine {
+    position: relative;
+}
+
+.vitrine img {
+    width: 100%;
+    display: block;
+}
+
+.vitrine h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/*CSS LES DIFFÉRENTES CARTÉGORIES - ACCUEIL*/
+
+.categorie {
+    background-color: rgb(252, 219, 0);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+/*CSS FOOTER - ACCUEIL*/
+
+.row, a {
+    background-color: #845119;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
